@@ -1,0 +1,2 @@
+x = 0:2\pi  => // 0: 2*pi
+title('Plot of the Sine Function', 'FontSize', 12)
