@@ -1,0 +1,16 @@
+//sample Products
+prod(x(n1:n2))
+
+//sample summation
+sum(x(n1:n2))
+
+//signal energy
+Ex = sum(x .* conj(X));
+//hoac
+Ex = sum(abs(X)) .^ 2);
+
+
+//chuyển trục matlab về giữa
+ax = gca;
+ax.XAxisLocation = 'origin';
+ax.YAxisLocation = 'origin';
